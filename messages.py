@@ -14,10 +14,10 @@ class Messages:
             "Fazer as tarefas que odiamos primeiro.",
             "Fazer coisas que gostamos.",
             "Ler sobre tudo.",
-            "“Daqui a 20 anos, as únicas pessoas que se vã lembrar que trabalhaste até tarde vão ser os teus filhos”, Sahil Bloom",
+            "Daqui a 20 anos, as únicas pessoas que se vã lembrar que trabalhaste até tarde vão ser os teus filhos, Sahil Bloom",
             "Nunca falhar em nada durante dois dias seguidos.",
             "Comer até ficar 80% cheio.",
-            "“Se uma decisão for reversível, toma-se a decisão o mais rápido possível, se for irreversível, toma-se o mais tardar possível”, Shane Parris.",
+            "Se uma decisão for reversível, toma-se a decisão o mais rápido possível, se for irreversível, toma-se o mais tardar possível, Shane Parris.",
         ],
         "Como falar com todos, by Leil Lowndes" : [
             "O Sorriso Inundante: Não sorria imediatamente ao cumprimentar alguém, como se fosse qualquer pessoa que entrasse no seu campo de visão fosse a benficiária. Em vez diso, olhe para o rosto da outra pessoa por um segundo. Faça uma pausa. Absorva a personalidade dela. Depois, deixe que um sorriso rasgado, caloroso e recetivo inunde o seu rosto e lhe transborde nos olhos. Desta maneira irá envolver o destinatário como uma onda quente. O atraso de uma fração de segundo convence as pessoas que o seu sorriso é genuino e apenas para elas.",
@@ -33,7 +33,7 @@ class Messages:
         #Randomly chooses a message from a random book
         message = random.choice(list(self.books[book]))
 
-        return f"{message}\n{book}"
+        return f"'{message}'\n{book}"
 
 
 
